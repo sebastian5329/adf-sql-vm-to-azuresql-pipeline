@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "cloud-dev-adfshir"
+        },
+        "ls_SqlServer1_password": {
+            "value": ""
+        },
+        "ls_sqldb_password": {
+            "value": ""
+        },
+        "ls_SqlServer1_properties_typeProperties_server": {
+            "value": "windows03vm"
+        },
+        "ls_SqlServer1_properties_typeProperties_database": {
+            "value": "testdb"
+        },
+        "ls_SqlServer1_properties_typeProperties_userName": {
+            "value": "sebastian"
+        },
+        "ls_sqldb_properties_typeProperties_server": {
+            "value": "cloudsqlserver001.database.windows.net"
+        },
+        "ls_sqldb_properties_typeProperties_database": {
+            "value": "cloud-sqldb"
+        },
+        "ls_sqldb_properties_typeProperties_userName": {
+            "value": "sebastian"
+        }
+    }
+}
